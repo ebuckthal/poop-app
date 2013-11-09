@@ -1,0 +1,6 @@
+<select ng-model="strictsearch.team">
+   <option value="">All NFL Teams</option>
+   <option ng-repeat="nflteam in nflteams" value="{{ $index }} ">
+      {{ nflteam.team }}
+   </option>
+</select>
